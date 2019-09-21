@@ -254,7 +254,12 @@ class wbfy_ui_Admin
             wp_die(__('You do not have sufficient permissions to access this page.', 'wbfy-update-it'));
         }
 
-        wp_enqueue_style('wbfy-update-it-css', plugins_url('/wbfy-update-it/resources/css/wbfy-update-it.min.css'), false, WBFY_UI_VERSION);
+        wp_enqueue_style(
+            'wbfy-update-it-css',
+            plugins_url('/wbfy-update-it/resources/css/wbfy-update-it.min.css'),
+            false,
+            WBFY_UI_VERSION
+        );
 
         echo wbfy_ui_Libs_WordPress_Functions::render(
             'server/skin/admin.php',

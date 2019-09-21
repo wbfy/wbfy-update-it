@@ -5,7 +5,7 @@
 ?>
 <div class="wrap">
 	<h1>
-		<?php esc_html_e('Configure Update It! Automatic Plugin And Theme Updater', 'wbfy-squash-it');?>
+		<?php esc_html_e('Configure Update It!', 'wbfy-update-it');?>
 	</h1>
 	<form method="post" action="options.php" name="wbfy-update-it-admin" class="wbfy-update-it-admin">
 <?php

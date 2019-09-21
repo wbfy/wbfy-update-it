@@ -9,7 +9,7 @@
  */
 
 /**
- * Plugin Name: Update It! Automatic Plugin And Theme Updater
+ * Plugin Name: Update It!
  * Plugin URI: https://websitesbuiltforyou.com/wordpress/update-it-automatic-plugin-theme-updater
  * Description: Resize and optimise images already uploaded to WordPress
  * Author: Websites Built For You
