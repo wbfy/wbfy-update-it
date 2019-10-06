@@ -40,7 +40,7 @@ if (!class_exists('wbfy_ui_Main')) {
     define('WBFY_UI_VERSION', '1.1.0');
     define('WBFY_UI_PLUGIN_DIR', plugin_dir_path(__FILE__));
 
-    include 'server/php/Autoloader.class.php';
+    include 'server/src/Autoloader.class.php';
     wbfy_ui_Autoloader::register();
 
     $wbfy_ui = new wbfy_ui_Main;

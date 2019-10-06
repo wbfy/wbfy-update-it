@@ -21,7 +21,7 @@ class wbfy_ui_Autoloader
             return;
         }
 
-        $file = WBFY_UI_PLUGIN_DIR . 'server/php/' . str_replace(array('wbfy_ui_', '_'), array('', '/'), $class) . ".class.php";
+        $file = WBFY_UI_PLUGIN_DIR . 'server/src/' . str_replace(array('wbfy_ui_', '_'), array('', '/'), $class) . ".class.php";
         if (file_exists($file)) {
             require_once $file;
             return true;
