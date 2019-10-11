@@ -1,6 +1,6 @@
 <?php
 /**
- * Main Update It! plugin file
+ * Update It! Automatic Update Plugin For WordPress
  *
  * Set up autoload and instantiate the main Update It! class and constants
  *
@@ -20,16 +20,18 @@
  * Text Domain: wbfy-update-it
  * Domain Path: /resources/languages
  *
- * Update It! Automatic Plugin And Theme Updater is free software: you can redistribute it and/or modify it
+ * Copyright (c) 2019 Steve Perkins, Websites Built For You
+ *
+ * Update It! is free software: you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the Free Software
  * Foundation, either version 2 of the License, or any later version.
  *
- * Update It! Automatic Plugin And Theme Updater is distributed in the hope that it will be useful, but WITHOUT
+ * Update It! is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
  * PARTICULAR PURPOSE. See the GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License along with
- * Update It! Automatic Plugin And Theme Updater. If not, see https://www.gnu.org/licenses.
+ * Update It! If not, see https://www.gnu.org/licenses.
  */
 
 if (!defined('ABSPATH')) {
