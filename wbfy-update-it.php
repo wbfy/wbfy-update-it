@@ -11,10 +11,10 @@
 /**
  * Plugin Name: Update It!
  * Plugin URI: https://websitesbuiltforyou.com/wordpress/update-it-automatic-plugin-theme-updater
- * Description: Resize and optimise images already uploaded to WordPress
+ * Description: Set it and forget it! Automatically update themes, plugins and WordPress core.
  * Author: Websites Built For You
  * Author URI: https://websitesbuiltforyou.com
- * Version: 1.1.0
+ * Version: 1.1.1
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses
  * Text Domain: wbfy-update-it
@@ -39,7 +39,7 @@ if (!defined('ABSPATH')) {
 }
 
 if (!class_exists('wbfy_ui_Main')) {
-    define('WBFY_UI_VERSION', '1.1.0');
+    define('WBFY_UI_VERSION', '1.1.1');
     define('WBFY_UI_PLUGIN_DIR', plugin_dir_path(__FILE__));
 
     include 'server/src/Autoloader.class.php';

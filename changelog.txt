@@ -2,3 +2,5 @@
 * Initial release
 = 1.1.0 =
 = Added: core update options
+= 1.1.1 =
+= Updated plugin description
