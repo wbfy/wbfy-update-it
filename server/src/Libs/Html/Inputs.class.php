@@ -1,5 +1,5 @@
 <?php
-class wbfy_si_Libs_Html_Inputs
+class wbfy_ui_Libs_Html_Inputs
 {
     /**
      * Generate select based on numeric range
