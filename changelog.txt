@@ -5,3 +5,5 @@
 = 1.1.1 =
 = Updated plugin description
 = Updated Libs/Html
+= 1.1.2 =
+= Fixed: missing static declaration in wbfy_ui_Options::getInstance()

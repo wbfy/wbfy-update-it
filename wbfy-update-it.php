@@ -14,7 +14,7 @@
  * Description: Set it and forget it! Automatically update themes, plugins and WordPress core.
  * Author: Websites Built For You
  * Author URI: https://websitesbuiltforyou.com
- * Version: 1.1.1
+ * Version: 1.1.2
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses
  * Text Domain: wbfy-update-it
@@ -39,7 +39,7 @@ if (!defined('ABSPATH')) {
 }
 
 if (!class_exists('wbfy_ui_Main')) {
-    define('WBFY_UI_VERSION', '1.1.1');
+    define('WBFY_UI_VERSION', '1.1.2');
     define('WBFY_UI_PLUGIN_DIR', plugin_dir_path(__FILE__));
 
     include 'server/src/Autoloader.class.php';

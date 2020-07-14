@@ -11,7 +11,7 @@ class wbfy_ui_Options
      *
      * @return object Singleton instance
      */
-    public function getInstance()
+    public static function getInstance()
     {
         static $instance = null;
         if (is_null($instance)) {
